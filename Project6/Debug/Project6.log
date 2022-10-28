@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\c project\Project6\main.cpp(31): warning C4172: 返回局部变量或临时变量的地址: arr_ans
+  Project6.vcxproj -> E:\c project\Project6\Debug\Project6.exe
