@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-void fun(char s[], char c)
+void fun(char* s, char c)
 {
 	char* p = s;
 	printf("%p\n", s);
@@ -14,11 +14,27 @@ void fun(char s[], char c)
 }
 
 
+void nihao(int a, int b)
+{
+	int temp;
+	printf("%p\n", &a);
+	printf("%p\n", &b);
+	temp = a;
+	a = b;
+	b = temp;
+}
+
+
 int main()
 {
 	char str[] = "turbo c and borland c++";
+	int a = 10;
+	int b = 20;
+	printf("%p\n", &a);
+	printf("%p\n", &b);
 	printf("%p\n", str);
-	fun(&str, 'c');//传值的方式，不是传址。
+	fun(str, 'c');//传值的方式，不是传址。
+	nihao(10, 20);
 	printf("str[]=%s", str);
 	return 0;
 }

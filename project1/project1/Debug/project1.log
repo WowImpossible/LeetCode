@@ -1,4 +1,2 @@
 ﻿  main.c
-D:\LeetCode\LeetCode\project1\project1\main.c(21,10): warning C4047: “函数”:“char *”与“char (*)[24]”的间接级别不同
-D:\LeetCode\LeetCode\project1\project1\main.c(21,6): warning C4024: “fun”: 形参和实参 1 的类型不同
   project1.vcxproj -> D:\LeetCode\LeetCode\project1\project1\Debug\project1.exe
